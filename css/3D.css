@@ -102,11 +102,7 @@
 model-viewer{
 	margin-bottom:50px;
 	width: 1850px;
-	height:800px;
-}
-
-model-viewer:hover{
-	border:none;
+	height:820px;
 }
 .bottom{
 	height:35vh;
