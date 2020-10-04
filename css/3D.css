@@ -104,9 +104,11 @@ model-viewer{
 	width: 1850px;
 	height:800px;	
 	border:1px solid;
-	border-color:rgba(0,0,0,1);
+	border-color:rgba(0,0,0,0);
 }
-
+model-viewer:hover{
+	border:none;
+}
 .bottom{
 	height:35vh;
 	background-color:rgba(0,0,0,1);
