@@ -99,13 +99,13 @@
 	height:130vh;
 }
 .album img{
-	width:22%;
-	padding:15px 50px;
+	width:25%;
+	padding:15px 30px;
 	transition: 1s;
 }
 
 .album img:hover{
-	width:32%;
+	width:35%;
 	filter: brightness(100%);	
 }
 
