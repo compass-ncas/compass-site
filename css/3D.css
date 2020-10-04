@@ -97,6 +97,7 @@
 .content{
 	height: 200vh;
 	text-align:center;
+	margin-right:10%;
 }
 
 model-viewer{
