@@ -102,10 +102,9 @@
 model-viewer{
 	margin-bottom:50px;
 	width: 1850px;
-	height:800px;	
-	border:1px solid;
-	border-color:rgba(0,0,0,0);
+	height:800px;
 }
+
 model-viewer:hover{
 	border:none;
 }
