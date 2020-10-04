@@ -100,7 +100,7 @@
 model-viewer{
 	width: 50%;
 	height:50%;
-	border:none;
+	text-align:center;
 }
 
 .bottom{
