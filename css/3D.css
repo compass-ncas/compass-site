@@ -103,6 +103,8 @@ model-viewer{
 	margin-bottom:50px;
 	width: 1850px;
 	height:800px;	
+	border:1px solid;
+	border-color:rgba(0,0,0,1);
 }
 
 .bottom{
