@@ -97,13 +97,11 @@
 .content{
 	height: 200vh;
 	text-align:center;
-	margin-right:10%;
 }
 
 model-viewer{
 	width: 1900px;
-	height:1000px;
-	
+	height:800px;	
 }
 
 .bottom{
