@@ -5,7 +5,7 @@
 }
 
 .main{
-	height:250vh;
+	height:240vh;
 	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url('../Image/space1.jpeg');
 	background-position: center;
 	background-size:cover;
@@ -100,7 +100,8 @@
 }
 
 model-viewer{
-	width: 1900px;
+	margin-bottom:50px;
+	width: 1850px;
 	height:800px;	
 }
 
