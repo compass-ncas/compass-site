@@ -5,7 +5,7 @@
 }
 
 .main{
-	height:200vh;
+	height:250vh;
 	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url('../Image/space1.jpeg');
 	background-position: center;
 	background-size:cover;
