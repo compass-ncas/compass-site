@@ -5,7 +5,7 @@
 }
 
 .main{
-	height:220vh;
+	height:230vh;
 	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url('../Image/space1.jpeg');
 	background-position: center;
 	background-size:cover;
@@ -95,7 +95,7 @@
 }
 
 .content{
-	height: 165vh;
+	height: 190vh;
 	text-align:center;
 }
 
@@ -105,6 +105,17 @@ model-viewer{
 	height:820px;
 	padding-left:150px;
 }
+.content h1{
+	color:rgba(255,250,253,1);
+	font-family:Candara;
+	align-items: center;
+
+}
+.margin{
+	margin: 5px 0px;
+	margin-bottom:25px;
+}
+
 .bottom{
 	height:35vh;
 	background-color:rgba(0,0,0,1);
