@@ -98,8 +98,7 @@
 	height: 100vh;
 }
 model-viewer{
-	width: 600px;
-	height: 600px;
+	width: 50%;
 }
 
 .bottom{
