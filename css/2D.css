@@ -169,7 +169,7 @@
 
 @media screen and (max-width:425px){
 	.main{
-		height:300vh;
+		height:275vh;
 	}
 	.logo img{
 		width:50%;
@@ -209,7 +209,7 @@
 	}
 	.album{
 		text-align:center;
-		height:250vh;
+		height:225vh;
 	}
 	.album img{
 		width:95%;
@@ -247,7 +247,7 @@
 
 @media screen and (max-width:375px){
 	.main{
-		height:428vh;
+		height:265vh;
 	}
 	.logo img{
 		width:65%;
@@ -258,43 +258,34 @@
 		text-align:center;
 		height:20vh;
 	}
+
 	.head{
-		height:18vh;
+		text-align:center;
+		height:12vh;
 	}
+		
+
+	.album{
+		text-align:center;
+		height:205vh;
+	}
+	.album img{
+		width:95%;
+		padding:15px 15px;
+	}
+	.album img:hover{
+		width:100%;	
+	}
+
 	.head h1{
 		font-size:215%;
+		padding-top:20px;
 	}
 	.head p{
 		margin-top:2%;
 		color:white;
 		font-size: 105%;
-	}
-	.content:hover , .content1:hover , .content2:hover , .content3:hover{
-		border-left: 1px solid;
-		border-radius:1%;
-		transition:.4s;
-	}
-	.content{
-		height:45vh;
-	}
-	.content1{
-		margin-top: 2%;
-		height:140vh;
-	}
-	.content2{
-		height:100vh; 
-	}
-	.content3{
-		height:52vh;
-	}
-	.content h2 , .content1 h2 , .content3 h2, .content2 h2{
-		margin-bottom:4%;
-		text-align:center;
-		margin-left:0%;
-	}
-	.content3 p{
-		padding-left: 6%;
-
+		padding-bottom:10px;
 	}
 	.btn-back p{
 		margin-bottom: 2%;
@@ -309,8 +300,8 @@
 	}
 
 	.bottom{
-		height:25vh;
-		background:linear-gradient(to bottom right,rgba(0,0,0,1),rgba(22,0,0,1),rgba(0,0,0,1),rgba(5,0,0,1),rgba(0,0,0,1));
+		height:30vh;
+		background:#000;
 	}
 	.society{
 		width:45%;
@@ -331,5 +322,17 @@
 		margin-top: 2%;
 		font-size:75%;
 
+	}
+}
+@media screen and (max-width:320px){
+	.head {
+		height:18vh;
+	}
+	.album{
+		text-align:center;
+		height:180vh;
+	}
+	.main{
+		height:250vh;
 	}
 }
