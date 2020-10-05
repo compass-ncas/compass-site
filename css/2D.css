@@ -65,7 +65,9 @@
 	font-weight: bold;
 	transform:scale(1);
 }
-
+.fa fa-bars{
+	display:none;
+}
 
 .head{
 	margin-top:4%;
