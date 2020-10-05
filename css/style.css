@@ -293,10 +293,10 @@
 
 	}
 	.content{
-		height:35vh;
+		height:30vh;
 	}
 	.content1{
-		height:120vh;
+		height:115vh;
 	}
 	.content2{
 		height:90vh; 
@@ -315,7 +315,7 @@
 	.content , .content1 , .content3 , .content2{
 		margin-top: 1%;
 		padding-top: 30px;
-		border-left: 5px solid;
+		border-left: 1px solid;
 		border-color:rgba(0,0,0,0.1); 
 	}
 	.btn-back p{
@@ -389,14 +389,14 @@
 		transition:.3s;
 	}
 	.content{
-		height:40vh;
+		height:35vh;
 	}
 	.content1{
 		margin-top: 2%;
-		height:140vh;
+		height:135vh;
 	}
 	.content2{
-		height:100vh; 
+		height:095vh; 
 	}
 	.content3{
 		height:52vh;
@@ -407,7 +407,7 @@
 		margin-left:0%;
 	}
 	.content3 p{
-		padding-left: 6%;
+		padding-left: 11%;
 
 	}
 	.btn-back p{
@@ -449,7 +449,7 @@
 }
 @media screen and (max-width:320px){
 	.main{
-		height:450vh;
+		height:430vh;
 	}
 	.content:hover , .content1:hover , .content2:hover , .content3:hover{
 		border-left: 1px solid;
@@ -457,11 +457,11 @@
 
 	}
 	.content{
-		height:38vh;
-		text-align: justify;
+		height:45vh;
+
 	}
 	.content1{
-		height:160vh;
+		height:158vh;
 	}
 	.content2{
 		height:109vh; 
@@ -482,17 +482,16 @@
 		margin-top: 1%;
 		padding-top: 30px;
 		border-left: none;
+		font-size:90%;
 	}
 	.bottom .social i{
 		border:0px solid;
 	}
 
 }
-
-
 @media screen and (max-width:373px){
 	.main{
-		height:440vh;
+		height:420vh;
 	}
 	.content{
 		height:34vh;
