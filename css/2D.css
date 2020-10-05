@@ -243,4 +243,92 @@
 
 	}
 }
+@media screen and (max-width:375px){
+	.main{
+		height:428vh;
+	}
+	.logo img{
+		width:65%;
+		margin-top: 7%;
+	}
+	.links{
+		display:none;
+	}
+	.top-bar{
+		text-align:center;
+		height:18vh;
+	}
+	.head{
+		height:18vh;
+	}
+	.head h1{
+		font-size:215%;
+	}
+	.head p{
+		margin-top:2%;
+		color:white;
+		font-size: 105%;
+	}
+	.content:hover , .content1:hover , .content2:hover , .content3:hover{
+		border-left: 1px solid;
+		border-radius:1%;
+		transition:.4s;
+	}
+	.content{
+		height:40vh;
+	}
+	.content1{
+		height:140vh;
+	}
+	.content2{
+		height:100vh; 
+	}
+	.content3{
+		height:52vh;
+	}
+	.content h2 , .content1 h2 , .content3 h2, .content2 h2{
+		text-align:center;
+		margin-left:0%;
+	}
+	.content3 p{
+		padding-left: 6%;
+
+	}
+	.btn-back p{
+		margin-bottom: 2%;
+		font-size: 80%;
+		background:none;
+		font-weight:bold;
+	}
+
+	#btn{
+		font-size: 90%;
+		padding: 2% 2%;
+	}
+
+	.bottom{
+		height:25vh;
+		background:linear-gradient(to bottom right,rgba(0,0,0,1),rgba(22,0,0,1),rgba(0,0,0,1),rgba(5,0,0,1),rgba(0,0,0,1));
+	}
+	.society{
+		width:45%;
+	}
+	.social{
+		text-align: center;
+		margin-top:1.5%;
+	}
+	.bottom .social p{
+		text-align:center;
+		padding-bottom:2%;
+	}
+	.social a{
+		text-align: center;
+	}
+
+	.bottom p{
+		margin-top: 2%;
+		font-size:75%;
+
+	}
+}
 
