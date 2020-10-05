@@ -96,13 +96,13 @@
 	height:130vh;
 }
 .album img{
-	width:25%;
+	width:20%;
 	padding:15px 15px;
 	transition: .4s;
 }
 
 .album img:hover{
-	width:35%;
+	width:40%;
 	filter: brightness(100%);	
 }
 .hr1{
