@@ -14,15 +14,18 @@
 	<div class="top-bar">
 		<div class="logo">
 			<img src="Image/logo2.png">
-			<p class="moto">Looking For The Best Way</p>
+			<p class="moto">~ Looking For The Best Way ~</p>
 		</div>
-		<div class="links">
+		<hr class="ruler">
+		<div class="links" id="link-bar">
+			<i  class="fa fa-close" onclick="closeMenu()"></i>
 				<ul>
 					<li id="tab"><a href="index.htm" >HOME</a></li>
 					<li class="active"><a href="3Dmodel.htm" >3D MODELS</a></li>
 					<li id="tab"><a href="2D Illustration.htm">2D ILLUSTRATIONS</a></li>
 				</ul>
 		</div>
+		<i  class="fa fa-bars" onclick="showMenu()"></i>
 	</div>
 	<div class="head">
 		<h1><span>Docking</span> Mechanism</h1>
@@ -55,5 +58,14 @@
 	
 	</div>    
 	</div>
+	<script type="text/javascript">
+		var show = document.getElementById("link-bar")
+		function showMenu(){
+			show.style.right = '0';
+		}
+		function closeMenu(){
+			show.style.right = '-200px';
+		}
+	</script>
 </body>
 </html>
