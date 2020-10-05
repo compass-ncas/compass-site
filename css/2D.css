@@ -68,7 +68,9 @@
 .fa fa-bars{
 	display:none;
 }
-
+.top-bar .fa{
+	display:none;
+}
 .head{
 	margin-top:4%;
 	text-align: center;
