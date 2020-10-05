@@ -181,7 +181,7 @@
 		top:10px;
 	}
 	#tab:hover
-		transform: scale(1);
+		transform: none;
 	}
 	.top-bar .fa{
 		display:block;
