@@ -102,8 +102,7 @@
 }
 
 .album img:hover{
-	width:40%;
-	filter: brightness(100%);	
+	width:40%;	
 }
 .hr1{
 	margin-top:20px;
@@ -112,6 +111,7 @@
 
 .bottom{
 	height:42vh;
+	background-color:rgba(0,0,0,1);
 }
 
 
