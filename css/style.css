@@ -5,7 +5,7 @@
 }
 
 .main{
-	height: 250vh;
+	height: 280vh;
 	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url('../Image/capsule1.png');
 	background-position: center;
 	background-size:cover;
@@ -15,42 +15,38 @@
 
 
 .top-bar{
-	display:flex;
-	padding:30px 0px;
+	text-align: center;
+	height:32vh;
 }
-
 .logo img{
-	margin-left:60px;
-	width:330px;
-	margin-right: 930px;
+	width:20%;
+	margin-top: 2%;
+
 }
 .moto{
 	font-family: Prestige Elite Std;
 	color:white;
-	padding-left: 77px;
 	color:rgba(255,255,255,0.7);
-	font-size: 20px;
+	font-size: 100%;
+	margin-bottom:2%;
 }
-
 .links{
-	margin-top:45px;
+	background:linear-gradient(to right,rgba(255,255,255,0.1),rgba(0,0,0,0.4),rgba(255,255,255,0.1));
+}
+.links ul{
+	display:inline;
 }
 
-.links nav ul{
-	display: inline;
-}
-.links nav ul li{
+.links ul li{
+	display:inline-flex;
 	list-style:none;
-	display: inline-flex;
-	padding:8px 8px;
-
 }
 
-.links nav ul li a{
+.links ul li a{
 	text-decoration: none;
 	font-family:Tw Cen MT;
 	color:rgba(250,252,254,0.9);
-	font-size:25px;
+	font-size:120%;
 	padding:15px 35px;
 	transition: 1s;
 }
@@ -67,7 +63,6 @@
 }
 .active{
 	font-weight: bold;
-	margin-left: 15px;
 	transform:scale(1);
 }
 
@@ -76,12 +71,12 @@
 	text-align: center;
 	color:rgba(255,255,255,1);
 	height:20vh;
-	background:linear-gradient(to right,rgba(0,0,0,0.1),rgba(255,255,255,0.5),rgba(0,0,0,0.1));
+	background:linear-gradient(to right,rgba(0,0,0,0.1),rgba(255,255,255,0.4),rgba(0,0,0,0.1));
 }
 
 .head h1{
 	font-family: Candara;
-	font-size:50pt;
+	font-size:230%;
 }
 .head h1 span{
 	color:rgba(0,5,5,0.9);
@@ -92,12 +87,12 @@
 	padding-top:5vh;
 	font-family: Orator Std;
 	color:rgb(0,0,0);
-	font-size:35px;
+	font-size:140%;
 	font-weight: bold;
 }
 
 .content1{
-	height:50vh;
+	height:58vh;
 }
 
 .content{
@@ -105,18 +100,17 @@
 }
 
 .content2{
-	height:40vh; 
+	height:45vh; 
 }
 
 .content3{
-	height:30vh; 
+	height:43vh; 
 }
 
 .content , .content1 , .content3 , .content2{
 	text-align:center;
-	margin-top: 20px;
-	padding-left: 50px;
-	padding-right: 50px;
+	margin-top: 1%;
+	
 	padding-top: 50px;
 	color:white;
 	border-left: 20px solid;
@@ -126,33 +120,42 @@
 .content h2 , .content1 h2 , .content3 h2, .content2 h2{
 	text-align:left;
 	font-family: Century Gothic;
-	margin-left:150px;
-	font-size:25pt;
+	margin-left:9%;
+	font-size:150%;
 }
 
-.content p ,.content1 p , .content3 p , .content2 p{
-	margin-top:25px;
-	padding-left: 120px;
-	padding-right: 90px;
-	font-size: 24px;
+.content p ,.content1 p , .content2 p{
+	margin-top:2%;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 103%;
 	font-family:Consolas;
+	text-align: center;
+}
+.content3 p{
+	margin-top:2%;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 103%;
+	font-family:Consolas;
+	text-align: left;
 }
 
 .content:hover , .content1:hover , .content2:hover , .content3:hover{
-	border-left: 20px solid;
+	border-left: 2% solid;
 	border-color: rgb(255,255,255);
-	border-radius:10px;
+	border-radius:1%;
 	background:linear-gradient(to right,rgba(255,255,255,0.1),rgba(0,0,0,0.5));
 	transition: 0.6s;
 }
 .btn-back{
 	text-align: center;
-	margin: 80px 0px;
+	margin: 6% 0%;
 }
 
 .btn-back p{
-	margin-top: 10px;
-	font-size: 18pt;
+	margin-bottom: 2%;
+	font-size: 100%;
 	font-family:Century Gothic;
 	color:#fff;
 	background:linear-gradient(to right,rgba(255,255,255,0.1),rgba(0,0,0,0.5));;
@@ -161,58 +164,59 @@
 
 #btn{
 	font-family:Arial;
-	font-size: 18pt;
-	padding: 20px 30px;
+	font-size: 110%;
+	padding: 1% 2%;
 	background-color:rgba(0,0,0,0);
 	color:white;
 	border:2px solid;
-	border-radius:4px;
+	border-radius:6%;
 
 }
 #btn:hover{
+	border-color:rgba(0,0,0,0);
 	background-color:white;
 	color:black;
 }
 
 .hr1{
-	margin-top:20px;
+	margin-top:1%;
 }
 
 
 .bottom{
-	height:35vh;
+	height:42vh;
 	background-color:rgba(0,0,0,1);
 }
 
 
 .society{
-	margin-top:5vh; 
-	width:350px;
+	margin-top:7vh; 
+	width:18%;
 }
 .social{
 	color:white;
 	font-family:Century Gothic;
 	text-align: center;
-	margin-top:35px;
+	margin-top:1.5%;
 }
 .bottom .social p{
 	text-align:center;
-	padding-bottom:5px;
+	padding-bottom:1%;
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 105%;
 }
 .bottom .social i{
 	border:1px solid;
-	border-radius:45px;
-	padding:12px 13px;
+	border-radius:100%;
+	padding:0.95% 1%;
 }
 .social a{
 	text-align: center;
 	color: white;
 	text-decoration:none;
-	padding-right: 8px;
-	font-family: 25px;
-	font-size: 25px;
+	margin-right: 0.5%;
+	font-family: Century Gothic;
+	font-size: 98%;
 }
 
 .social a i:hover{
@@ -224,7 +228,7 @@
 	font-family:Arial;
 	color:white;
 	text-align: center;
-	margin-top: 15px;
-	font-size:18px;
+	margin-top: 1%;
+	font-size:75%;
 
 }
