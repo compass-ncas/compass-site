@@ -417,7 +417,7 @@
 	}
 
 	.bottom{
-		height:25vh;
+		height:30vh;
 		background:linear-gradient(to bottom right,rgba(0,0,0,1),rgba(22,0,0,1),rgba(0,0,0,1),rgba(5,0,0,1),rgba(0,0,0,1));
 	}
 	.society{
