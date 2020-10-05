@@ -98,7 +98,7 @@
 .album img{
 	width:20%;
 	padding:15px 15px;
-	transition: .6s;
+	transition: 1s;
 }
 
 .album img:hover{
