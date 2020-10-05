@@ -366,9 +366,9 @@ model-viewer{
 		height: 90vh;
 	}
 }
-/**@media screen and (max-width:392px){
+@media screen and (max-width:392px){
 	.head {
-		height:19vh;
+		height:23vh;
 	}
 
-}*/
+}
