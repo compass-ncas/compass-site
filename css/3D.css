@@ -5,54 +5,52 @@
 }
 
 .main{
-	height:230vh;
-	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url('../Image/space1.jpeg');
+	height: 350vh;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url('../Image/space1.jpeg');
 	background-position: center;
 	background-size:cover;
 	background-attachment: fixed;
 	position: relative;
 }
 
-.top-bar{
-	display:flex;
-	padding:30px 0px;
-}
 
+.top-bar{
+	text-align: center;
+	height:32vh;
+}
 .logo img{
-	margin-left:60px;
-	width:330px;
-	margin-right: 930px;
+	width:20%;
+	margin-top: 2%;
+
 }
 .moto{
 	font-family: Prestige Elite Std;
 	color:white;
-	padding-left: 77px;
 	color:rgba(255,255,255,0.7);
-	font-size: 20px;
+	font-size: 100%;
+	margin-bottom:2%;
 }
-
 .links{
-	margin-top:55px;
+	background:linear-gradient(to right,rgba(255,255,255,0.1),rgba(0,0,0,0.4),rgba(255,255,255,0.1));
+}
+.links ul{
+	display:inline;
 }
 
-.links nav ul{
-	display: inline;
-}
-.links nav ul li{
+.links ul li{
+	display:inline-flex;
 	list-style:none;
-	display: inline-flex;
-	padding:8px 8px;
 }
 
-.links nav ul li a{
+.links ul li a{
 	text-decoration: none;
 	font-family:Tw Cen MT;
 	color:rgba(250,252,254,0.9);
-	font-size:25px;
+	font-size:120%;
 	padding:15px 35px;
-	position: relative;
 	transition: 1s;
 }
+
 #tab:hover{
 	border:1px solid;
 	border-color:rgba(255,255,255,0.6);
@@ -65,12 +63,12 @@
 }
 .active{
 	font-weight: bold;
-	margin-right: 15px;
 	transform:scale(1);
 }
 
 
 .head{
+	margin-top:4%;
 	text-align: center;
 	color:rgba(255,255,255,1);
 	height:20vh;
@@ -78,7 +76,7 @@
 
 .head h1{
 	font-family: Candara;
-	font-size:50pt;
+	font-size:250%;
 	text-transform: uppercase;
 }
 .head h1 span{
@@ -87,69 +85,75 @@
 
 .head p{
 	margin-top:2px;
-	background:rgba(255,255,255,0.2);
 	font-family: Orator Std;
-	color:rgb(0,0,0);
-	font-size:35px;
+	color:rgb(220,220,255);
+	font-size:150%;
 	font-weight: bold;
 }
 
+
 .content{
-	height: 190vh;
+	height: 250vh;
 	text-align:center;
 }
 
 model-viewer{
-	margin-bottom:50px;
-	width: 1850px;
-	height:820px;
-	padding-left:250px;
+	margin-bottom:2%;
+	width: 80%;
+	height:45%;
+	margin-left:10%;
+	text-align:center;
 }
 .content h1{
 	color:rgba(255,250,253,1);
 	font-family:Candara;
-	align-items: center;
 
 }
 .margin{
-	margin: 5px 0px;
-	margin-bottom:25px;
+	margin:5px 0px;
+	margin-bottom:2%;
 }
 
+.hr1{
+	margin-top:20px;
+}
+
+
 .bottom{
-	height:35vh;
+	margin-top:10%;
+	height:42vh;
 	background-color:rgba(0,0,0,1);
 }
 
 
 .society{
-	margin-top:5vh; 
-	width:350px;
+	margin-top:7vh; 
+	width:18%;
 }
 .social{
 	color:white;
 	font-family:Century Gothic;
 	text-align: center;
-	margin-top:35px;
+	margin-top:1.5%;
 }
 .bottom .social p{
 	text-align:center;
-	padding-bottom:5px;
+	padding-bottom:1%;
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 105%;
 }
 .bottom .social i{
 	border:1px solid;
-	border-radius:45px;
-	padding:12px 13px;
+	border-radius:100%;
+	padding:0.95% 1%;
 }
 .social a{
 	text-align: center;
 	color: white;
 	text-decoration:none;
-	padding-right: 8px;
-	font-family: 25px;
-	font-size: 25px;
+	margin-right: 0.5%;
+	font-family: Century Gothic;
+	font-size: 98%;
 }
 
 .social a i:hover{
@@ -161,32 +165,8 @@ model-viewer{
 	font-family:Arial;
 	color:white;
 	text-align: center;
-	margin-top: 15px;
-	font-size:18px;
+	margin-top: 1%;
+	font-size:75%;
 
 }
 
-
-
-@media	screen and (max-width:1600px){
-	.head{
-		width:100%;
-	}
-	.bottom{
-		width:100%;
-	}
-	.links nav ul li{
-		padding:8px 6px;
-	}
-	.logo img{
-		margin-right: 360px;
-	}
-	.album{
-		height:155vh;
-	}
-	.album img{
-		width:40%;
-	}
-
-
-}
