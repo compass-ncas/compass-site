@@ -336,3 +336,9 @@
 		height:250vh;
 	}
 }
+@media screen and (max-width:392px){
+	.head {
+		height:19vh;
+	}
+
+}
