@@ -180,9 +180,6 @@
 		right:20px;
 		top:10px;
 	}
-	#tab:hover
-		transform: none;
-	}
 	.top-bar .fa{
 		display:block;
 		color:#fff;
@@ -267,9 +264,7 @@
 		height:12vh;
 	}
 		
-	#tab:hover
-		transform: scale(1);
-	}
+
 	.album{
 		text-align:center;
 		height:205vh;
@@ -328,7 +323,7 @@
 		font-size:75%;
 
 	}
-
+}
 @media screen and (max-width:320px){
 	.head {
 		height:18vh;
