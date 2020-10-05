@@ -180,6 +180,9 @@
 		right:20px;
 		top:10px;
 	}
+	#tab:hover
+		transform: scale(1);
+	}
 	.top-bar .fa{
 		display:block;
 		color:#fff;
@@ -264,7 +267,9 @@
 		height:12vh;
 	}
 		
-
+	#tab:hover
+		transform: scale(1);
+	}
 	.album{
 		text-align:center;
 		height:205vh;
