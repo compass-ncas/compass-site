@@ -21,19 +21,19 @@
 
 .logo img{
 	margin-left:375%;
-	width:2062.5%;
+	width:330px;
 	margin-right: 930px;
 }
 .moto{
 	font-family: Prestige Elite Std;
 	color:white;
-	padding-left: 77px;
+	padding-left: 481.25%;
 	color:rgba(255,255,255,0.7);
-	font-size: 20px;
+	font-size: 125%;
 }
 
 .links{
-	margin-top:45px;
+	margin-top:281.25%;
 }
 
 .links nav ul{
@@ -50,7 +50,7 @@
 	text-decoration: none;
 	font-family:Tw Cen MT;
 	color:rgba(250,252,254,0.9);
-	font-size:25px;
+	font-size:156.25%;
 	padding:15px 35px;
 	transition: 1s;
 }
@@ -67,7 +67,7 @@
 }
 .active{
 	font-weight: bold;
-	margin-left: 15px;
+	margin-left: 93.75%;
 	transform:scale(1);
 }
 
@@ -92,7 +92,7 @@
 	padding-top:5vh;
 	font-family: Orator Std;
 	color:rgb(0,0,0);
-	font-size:35px;
+	font-size:218.75%;
 	font-weight: bold;
 }
 
@@ -114,44 +114,44 @@
 
 .content , .content1 , .content3 , .content2{
 	text-align:center;
-	margin-top: 20px;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-top: 50px;
+	margin-top: 125%;
+	padding-left: 312.25%;
+	padding-right: 312.25%;
+	padding-top: 312.25%;
 	color:white;
-	border-left: 20px solid;
+	border-left: 125% solid;
 	border-color:rgba(0,0,0,0.1); 
 }
 
 .content h2 , .content1 h2 , .content3 h2, .content2 h2{
 	text-align:left;
 	font-family: Century Gothic;
-	margin-left:150px;
+	margin-left:937.5%;
 	font-size:25pt;
 }
 
 .content p ,.content1 p , .content3 p , .content2 p{
-	margin-top:25px;
-	padding-left: 120px;
-	padding-right: 90px;
-	font-size: 24px;
+	margin-top:156.25%;
+	padding-left: 750%;
+	padding-right: 562.5%;
+	font-size: 150%;
 	font-family:Consolas;
 }
 
 .content:hover , .content1:hover , .content2:hover , .content3:hover{
-	border-left: 20px solid;
+	border-left: 125% solid;
 	border-color: rgb(255,255,255);
-	border-radius:10px;
+	border-radius:62.5%;
 	background:linear-gradient(to right,rgba(255,255,255,0.1),rgba(0,0,0,0.5));
 	transition: 0.6s;
 }
 .btn-back{
 	text-align: center;
-	margin: 80px 0px;
+	margin: 500% 0%;
 }
 
 .btn-back p{
-	margin-top: 10px;
+	margin-top: 62.5px;
 	font-size: 18pt;
 	font-family:Century Gothic;
 	color:#fff;
@@ -165,7 +165,7 @@
 	padding: 20px 30px;
 	background-color:rgba(0,0,0,0);
 	color:white;
-	border:2px solid;
+	border:12.5% solid;
 	border-radius:4px;
 
 }
@@ -175,7 +175,7 @@
 }
 
 .hr1{
-	margin-top:20px;
+	margin-top:125%;
 }
 
 
@@ -193,17 +193,17 @@
 	color:white;
 	font-family:Century Gothic;
 	text-align: center;
-	margin-top:35px;
+	margin-top:218.75%;
 }
 .bottom .social p{
 	text-align:center;
-	padding-bottom:5px;
+	padding-bottom:31.25%;
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 156.25%;
 }
 .bottom .social i{
 	border:1px solid;
-	border-radius:45px;
+	border-radius:281.25%;
 	padding:12px 13px;
 }
 .social a{
