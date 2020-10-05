@@ -490,4 +490,20 @@
 }
 
 
+@media screen and (max-width:373px){
+	.main{
+		height:440vh;
+	}
+	.content{
+		height:34vh;
+		text-align: justify;
+	}
+	.content1{
+		height:138vh;
+	}
+	.content2{
+		height:100vh; 
+	}
 
+
+}
