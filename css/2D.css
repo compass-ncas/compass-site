@@ -12,6 +12,168 @@
 	background-attachment: fixed;
 	position: relative;
 }
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+.main{
+	height: 230vh;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url('../Image/space2.jpeg');
+	background-position: center;
+	background-size:cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+
+.top-bar{
+	text-align: center;
+	height:32vh;
+}
+.logo img{
+	width:20%;
+	margin-top: 2%;
+
+}
+.moto{
+	font-family: Prestige Elite Std;
+	color:white;
+	color:rgba(255,255,255,0.7);
+	font-size: 100%;
+	margin-bottom:2%;
+}
+.links{
+	background:linear-gradient(to right,rgba(255,255,255,0.1),rgba(0,0,0,0.4),rgba(255,255,255,0.1));
+}
+.links ul{
+	display:inline;
+}
+
+.links ul li{
+	display:inline-flex;
+	list-style:none;
+}
+
+.links ul li a{
+	text-decoration: none;
+	font-family:Tw Cen MT;
+	color:rgba(250,252,254,0.9);
+	font-size:120%;
+	padding:15px 35px;
+	transition: 1s;
+}
+
+#tab:hover{
+	border:1px solid;
+	border-color:rgba(255,255,255,0.6);
+	border-top:rgba(255,255,255,0);
+	border-left:rgba(255,255,255,0.5);
+	border-right:rgba(255,255,255,0.5);
+	transition: .4s;
+	background-color: rgba(255,255,255,0.1);
+	transform: scale(1.1);
+}
+.active{
+	font-weight: bold;
+	transform:scale(1);
+}
+
+
+.head{
+	margin-top:4%;
+	text-align: center;
+	color:rgba(255,255,255,1);
+	height:20vh;
+}
+
+.head h1{
+	font-family: Candara;
+	font-size:250%;
+	text-transform: uppercase;
+}
+.head h1 span{
+	color:rgba(0,255,255,0.9);
+}
+
+.head p{
+	margin-top:2px;
+	font-family: Orator Std;
+	color:rgb(220,220,255);
+	font-size:150%;
+	font-weight: bold;
+}
+
+.album{
+	text-align:center;
+	height:130vh;
+}
+.album img{
+	width:30%;
+	padding:15px 15px;
+	transition: 1s;
+}
+
+.album img:hover{
+	width:31%;
+	filter: brightness(100%);	
+}
+.hr1{
+	margin-top:20px;
+}
+
+
+.bottom{
+	height:42vh;
+	background-color:rgba(0,0,0,1);
+}
+
+
+.society{
+	margin-top:7vh; 
+	width:18%;
+}
+.social{
+	color:white;
+	font-family:Century Gothic;
+	text-align: center;
+	margin-top:1.5%;
+}
+.bottom .social p{
+	text-align:center;
+	padding-bottom:1%;
+	font-weight: bold;
+	font-size: 105%;
+}
+.bottom .social i{
+	border:1px solid;
+	border-radius:100%;
+	padding:0.95% 1%;
+}
+.social a{
+	text-align: center;
+	color: white;
+	text-decoration:none;
+	margin-right: 0.5%;
+	font-family: Century Gothic;
+	font-size: 98%;
+}
+
+.social a i:hover{
+	background-color:white;
+	color:black;
+}
+
+.bottom p{
+	font-family:Arial;
+	color:white;
+	text-align: center;
+	margin-top: 1%;
+	font-size:75%;
+
+}
+
 
 .top-bar{
 	display:flex;
