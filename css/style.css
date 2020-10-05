@@ -5,7 +5,7 @@
 }
 
 .main{
-	height: 280vh;
+	height: 300vh;
 	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url('../Image/capsule1.png');
 	background-position: center;
 	background-size:cover;
