@@ -171,6 +171,8 @@
 	.main{
 		height:420vh;
 	}
+	#tab:hover{
+		transform: none;
 
 }
 
@@ -213,12 +215,20 @@
 	.top-bar{
 		height:18vh;
 	}
+	.album{
+		text-align:center;
+		height:275vh;
+	}
+	.album img{
+		width:95%;
+		padding:15px 15px;
+	}
+	.head h1{
+		margin-top:12%;
+	}
 	.head{
 		text-align:center;
 		height:18vh;
-	}
-	.head p{
-		color:#fff;
 	}
 	.ruler{
 		margin-bottom:3vh;
@@ -499,5 +509,4 @@
 	}
 
 }
-
 
