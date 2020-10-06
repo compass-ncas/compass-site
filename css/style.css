@@ -539,4 +539,39 @@
 		height:45vh;
 	}
 }
+@media screen and (max-width:320px){
+	.content , .content1 , .content3 , .content2{
+		font-size:80%;
+	}
+	.logo img{
+		width:52%;
+	}
+	.top-bar{
+		height:24vh;
+	}
+	.head p{
+		font-size:95%;
+	}
+	.head h1{
+		font-size:155%;
+	}
+	.content{
+		height:40vh;
+
+	}
+	.content1{
+		height:140vh;
+	}
+	.content2{
+		height:98vh; 
+	}
+	.content3{
+		height:58vh;
+	}
+	.main{
+		height:465vh;
+	}
+
+
 }
+
