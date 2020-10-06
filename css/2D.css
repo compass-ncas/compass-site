@@ -469,6 +469,20 @@
 }
 
 
+@media screen and (max-width:392px) and (min-width:376px){
+	.head {
+		height:19vh;
+	}
+	#tab:hover{
+		transform: none;
+	}
+	.head p{
+		font-size:98%;
+	}
+	.album{
+		height:250vh;
+	}
+}
 
 
 
