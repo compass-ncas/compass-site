@@ -186,6 +186,9 @@ model-viewer{
 		width:50%;
 		margin-top: 7%;
 	}
+	#tab:hover{
+		transform: none;
+	}
 	.fa-bars{
 		position: absolute;
 		right:20px;
@@ -274,6 +277,9 @@ model-viewer{
 		width:65%;
 		margin-top: 8%;
 	}
+	#tab:hover{
+		transform: none;
+	}
 	
 	.top-bar{
 		text-align:center;
@@ -355,6 +361,9 @@ model-viewer{
 		width: 85%;
 		height:40%;
 	}
+	#tab:hover{
+		transform: none;
+	}
 	.head {
 		margin-top:0px;
 		height:18vh;
@@ -374,6 +383,9 @@ model-viewer{
 @media screen and (max-width:392px){
 	.head {
 		height:23vh;
+	}
+	#tab:hover{
+		transform: none;
 	}
 
 }
