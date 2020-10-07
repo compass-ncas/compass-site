@@ -18,23 +18,26 @@
 		<div class="links"  id="link-bar">
 			<i  class="fa fa-close" onclick="closeMenu()"></i>
 			<ul>
-			    <li id="tab"><a href="index.htm" >HOME</a></li>
+			    <li class="active"><a href="index.htm" >HOME</a></li>
 			    <li id="tab"><a href="3Dmodel.htm">3D MODELS</a></li>
-			    <li id="tab"><a href="2D Illustration.htm">2D ILLUSTRATIONS</a></li>	
-			    <li class="active"><a href="Our Team.htm">OUR TEAM</a></li>		
+			    <li id="tab"><a href="2D Illustration.htm">2D ILLUSTRATIONS</a></li>
+			    <li id="tab"><a href="Our Team.htm">OUR TEAM</a></li>		
 			</ul>
 
 		</div>
 		<i  class="fa fa-bars" onclick="showMenu()"></i>
-		<div class="content">
-			<img src="Image/M2.jpg">
-			<img src="Image/M1.jpg">
-			<img src="Image/M3.jpg">
-			<img src="Image/M6.jpg">
-			<img src="Image/M4.jpg">
-			<img src="Image/M5.jpg">
-		</div>
-		<hr class="hr1">
+		<hr style='opacity: .5'>
+	</div>
+	
+	<div class="team">
+		<img src="Image/M2.jpg">
+		<img src="Image/M1.jpg">
+		<img src="Image/M3.jpg">
+		<img src="Image/M6.jpg">
+		<img src="Image/M4.jpg">
+		<img src="Image/M5.jpg">
+	</div>
+	<hr>
 	<div class="bottom">
 		<center><img class="society" src="Image/logos (2).png"></center>
 		<div class="social">
@@ -46,13 +49,14 @@
 		<p>Project By Nalanda College Astronomy Society</p>
 	</div>
 	</div>
+
 	<script type="text/javascript">
 		var show = document.getElementById("link-bar")
 		function showMenu(){
 			show.style.top = '0';
 		}
 		function closeMenu(){
-			show.style.top = '-40%';
+			show.style.top = '-120%';
 		}
 	</script>
 </body>
