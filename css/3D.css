@@ -191,6 +191,11 @@ model-viewer{
 		right:20px;
 		top:10px;
 	}
+	.fa-close{
+		text-align: left;
+		padding-top:10px;
+		padding-left:10px;
+	}
 	.top-bar .fa{
 		display:block;
 		color:#fff;
@@ -200,15 +205,15 @@ model-viewer{
 	}
 
 	.links{
-		height: 100vh;
+		height: 100%;
 		width:200px;
 		background:#000;
 		top:0;
 		right:-200px;
 		position: absolute;
-		text-align: left;
 		z-index: 2;
 		transition: 0.5s;
+		background-attachment: fixed;
 	}
 	
 	.top-bar{
