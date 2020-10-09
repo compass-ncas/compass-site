@@ -364,7 +364,7 @@ model-viewer{
 
 	}	
 	.links{
-		font-size:105%;
+		font-size:120%;
 		height:35vh;
 		top:-35vh;
 	}
@@ -384,7 +384,7 @@ model-viewer{
 
 @media screen and (max-width:375px) and (max-height:667px){
 	.links{
-		font-size:115%;
+		font-size:105%;
 		height:44vh;
 		top:-44vh;
 	}
