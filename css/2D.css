@@ -223,6 +223,9 @@
 		text-align:center;
 		height:240vh;
 	}
+	.album img:hover{
+		width:95%;	
+	}
 	.album img{
 		width:95%;
 		padding:15px 15px;
@@ -307,8 +310,8 @@
 		height:40vh;
 		top:-40vh;
 	}
-	.head{
-		height:16vh;
+	.head p{
+		margin-bottom:3vh;
 	}
 }
 
@@ -328,7 +331,7 @@
 		transform: none;
 	}
 	.head{
-		height:11vh;
+		height:15vh;
 	}
 	.head h1{
 		font-size:215%;
@@ -387,15 +390,6 @@
 	}	
 }
 
-@media screen and (max-width:347px) and (min-width: 321px){
-	.links{
-		font-size: 110%;
-		height:40vh;
-		top:-40vh;
-	}
-}
-
-
 @media screen and (max-width:320px){
 	.logo img{
 		width:60%;
@@ -415,9 +409,9 @@
 		transform: none;
 	}
 	.links{
-		font-size:108%;
-		height:40vh;
-		top:-40vh;
+		font-size:110%;
+		height:45vh;
+		top:-45vh;
 	}
 	.bottom{
 		height:30vh;
