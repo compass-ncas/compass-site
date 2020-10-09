@@ -223,10 +223,10 @@ model-viewer{
 		padding:15px 25px;
 	}
 	model-viewer{
-	margin-bottom:5%;
-	margin-top:5%;
-	width: 80%;
-	height:40%;
+		margin-bottom:5%;
+		margin-top:5%;
+		width: 80%;
+		height:40%;
 	}
 	.content{
 		height: 130vh;
